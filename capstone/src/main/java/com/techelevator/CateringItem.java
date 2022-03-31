@@ -15,13 +15,7 @@ public class CateringItem {
         this.itemId = itemId;
         this.foodType = foodType;
     }
-    public String getItemId() {
-        return itemId;
-    }
 
-    public void setItemId(String itemId) {
-        this.itemId = itemId;
-    }
     public double getPrice(){
         return price;
     }
@@ -48,6 +42,15 @@ public class CateringItem {
             return String.valueOf(this.getNumOfCateringItems());
         }
     }
+        public String getItemId() {
+            return itemId;
+        }
+
+        public void setItemId(String itemId) {
+            this.itemId = itemId;
+        }
+
+
 
         public String getFoodType() {
             if (foodType.equals("1")) {

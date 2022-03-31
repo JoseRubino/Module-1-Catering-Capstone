@@ -5,9 +5,7 @@ import com.techelevator.CateringItem;
 import java.util.List;
 import java.util.Scanner;
 
-
-
-public class UserInput {
+public class UserInput{
 
     private Scanner scanner;
 
@@ -24,23 +22,6 @@ public class UserInput {
 
         return scanner.nextLine();
     }
-
-    public String printPurchasingSubMenu() {
-
-        System.out.println("M. Feed Money");
-        System.out.println("S. Select Item");
-        System.out.println("F. Finish Transaction");
-        System.out.println("R. Return to Previous Menu");
-        System.out.println("Please select your choice (Letter only)");
-
-        return scanner.nextLine();
-    }
-
-    public void printCateringItem(CateringItem cateringitem) {
-        System.out.printf("%-7s | %-20s | %15s | %-8s | %-5s\n", cateringitem.getItemId(), cateringitem.getName(), cateringitem.getFoodType(), cateringitem.getNumOfCateringItems(), "$" + cateringitem.getPrice());
-
-    }
-
     public void printListOfCateringItems(List<CateringItem> cateringItems) {
         //Group items based on Product codes.
         System.out.println("\n*********** List of Items Available ******************************\n");
@@ -56,10 +37,24 @@ public class UserInput {
         for (CateringItem cateringitem : cateringItems) {
 
             printCateringItem(cateringitem);
-
         }
-
     }
+
+    public void printCateringItem(CateringItem cateringitem) {
+        System.out.printf("%-7s | %-20s | %15s | %-8s | %-5s\n", cateringitem.getItemId(), cateringitem.getName(), cateringitem.getFoodType(), cateringitem.getNumOfCateringItems(), "$" + cateringitem.getPrice());
+    }
+    public String printPurchasingSubMenu() {
+
+        System.out.println("M. Feed Money");
+        System.out.println("S. Select Item");
+        System.out.println("F. Finish Transaction");
+        System.out.println("R. Return to Previous Menu");
+        System.out.println("Please select your choice (Letter only)");
+
+        return scanner.nextLine();
+    }
+
+
 }
 
 

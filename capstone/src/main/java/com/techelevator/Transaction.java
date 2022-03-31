@@ -5,13 +5,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Transaction {
-    public double balance;
+    private static double balance;
 
-    public double getBalance() {
+
+    public static double getBalance() {
         return balance;
     }
 
-    public void addMoney (double moneyToAdd) {
+    public static void addMoney(double moneyToAdd) {
         Set<Double> values = new HashSet<Double>(Arrays.asList(new Double[]{1.00, 5.00, 10.00, 20.00}));
         if (values.contains(moneyToAdd)) {
             balance += moneyToAdd;
@@ -23,9 +24,9 @@ public class Transaction {
         }
     }
 
-        public void getChange (double balanceAfterPurchase) {
+        public static void getChange(double balanceAfterPurchase) {
             Double[] change = new Double[]{20.00, 10.00, 5.00, 1.00, 0.25, 0.10, 0.05};
-            String[] typeOfCoin = new String[]{"-20(s)", "-10(s)", "-5(s)", "-1(s)", "-quarter(s)", "-dime(s)", "-nickel(s)"};
+            String[] typeOfCoin = new String[]{"-20(s)", "-10(s)", "-5(s)", "-1(s)", "-Quarter(s)", "-Dime(s)", "-Nickel(s)"};
             for (int i = 0; i < change.length; i++) {
                 int count;
                 count = (int) (balanceAfterPurchase / change[i]);
