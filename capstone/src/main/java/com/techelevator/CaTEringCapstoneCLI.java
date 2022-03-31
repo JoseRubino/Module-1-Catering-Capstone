@@ -8,6 +8,12 @@ public class CaTEringCapstoneCLI {
 
 	private Menu menu;
 
+	private static final String display_catering_items = "D";
+
+	private static final String purchase = "P";
+
+	private static final String exit = "E";
+
 	public CaTEringCapstoneCLI(Menu menu) {
 		this.menu = menu;
 	}
@@ -20,7 +26,7 @@ public class CaTEringCapstoneCLI {
 
 	public void run() {
 		while (true) {
-			//  to do -- build out main menu
+
 
 		}
 	}
