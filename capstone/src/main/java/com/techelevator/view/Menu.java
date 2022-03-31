@@ -1,7 +1,6 @@
 package com.techelevator.view;
 
 import com.techelevator.CateringItem;
-
 import java.util.List;
 import java.util.Scanner;
 
@@ -30,7 +29,7 @@ public class Menu {
 
 
         if (cateringItems.isEmpty()) {
-            System.out.println("No Items avaliable!");
+            System.out.println("No Items available!");
             return;
         }
 
