@@ -1,4 +1,4 @@
-package com.techelevator.view.CateringItems;
+package com.techelevator.view.MenuItems;
 
 import com.techelevator.CateringItem;
 

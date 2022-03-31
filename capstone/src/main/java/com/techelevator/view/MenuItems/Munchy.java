@@ -1,9 +1,10 @@
-package com.techelevator.view.CateringItems;
-
-import com.techelevator.CateringItem;
+package com.techelevator.view.MenuItems;
 
 
-public class Munchy extends CateringItem {
+import com.techelevator.view.Menu;
+
+
+public class Munchy extends Menu {
     public Munchy(String itemId, String Name, Double price, String foodType){
         super(itemId, name, price, foodType);
     }

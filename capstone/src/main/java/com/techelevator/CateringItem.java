@@ -41,23 +41,25 @@ public class CateringItem {
     public int purchaseItem(int i){
         return numOfCateringItems -=1;
     }
-    public String getQuantity(){
-        if(this.getNumOfCateringItems()==0){
+    public String getQuantityString() {
+        if (this.getNumOfCateringItems() == 0) {
             return "NO LONGER AVAILABLE";
-        }else {
+        } else {
             return String.valueOf(this.getNumOfCateringItems());
         }
+    }
 
         public String getFoodType() {
-            if (foodType.equals("1"))
+            if (foodType.equals("1")) {
                 return "Munchy";
-        }if (foodType.equals("2")) {
-            return "Sandwich";
-        }else if (foodType.equals("3")) {
-            return "Drink";
-        } else
-            return "Dessert";
-    }
+            } else if (foodType.equals("2")) {
+                return "Sandwich";
+            } else if (foodType.equals("3")) {
+                return "Drink";
+            } else {
+                return "Dessert";
+            }
+        }
     public void setFoodType(String foodType){
         this.foodType = foodType;
 
