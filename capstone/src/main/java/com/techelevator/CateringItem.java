@@ -9,7 +9,7 @@ public class CateringItem {
     private String foodType;
 
 
-    public CateringItem(String itemId, String name, double price, String foodType){
+    public CateringItem(String itemId, String name, String foodType, double price){
         this.name = name;
         this.price = price;
         this.itemId = itemId;
@@ -53,16 +53,9 @@ public class CateringItem {
 
 
         public String getFoodType() {
-            if (foodType.equals("1")) {
-                return "Munchy";
-            } else if (foodType.equals("2")) {
-                return "Sandwich";
-            } else if (foodType.equals("3")) {
-                return "Drink";
-            } else {
-                return "Dessert";
+            return foodType;
             }
-        }
+
     public void setFoodType(String foodType){
         this.foodType = foodType;
 
