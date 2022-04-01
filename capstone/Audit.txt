@@ -1,2 +1,10 @@
 Fri Apr 01 11:11:07 EDT 2022 Add Money           20.0                
 Fri Apr 01 11:11:32 EDT 2022 Burrito             15.15               
+Fri Apr 01 11:38:49 EDT 2022 Add Money           20.0                
+Fri Apr 01 11:39:43 EDT 2022 Nachos              16.15               
+Fri Apr 01 12:09:18 EDT 2022 Add Money           20.0                
+Fri Apr 01 12:09:32 EDT 2022 Nachos              16.15               
+Fri Apr 01 12:10:13 EDT 2022 Add Money           20.0                
+Fri Apr 01 12:10:40 EDT 2022 Nachos              16.15               
+Fri Apr 01 12:23:50 EDT 2022 Add Money           20.0                
+Fri Apr 01 12:24:00 EDT 2022 After Lunch Mints   18.65               

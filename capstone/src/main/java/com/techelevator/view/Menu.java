@@ -12,7 +12,15 @@ public class Menu {
             scanner = new Scanner(System.in);
         }
 
+
+
         public String printMainMenu() {
+            System.out.println();
+            System.out.println("************************************");
+            System.out.println("****TASTE ELEVATOR CATERING CORP****");
+            System.out.println("************************************");
+
+
             System.out.println("D. Display Catering Items");
             System.out.println("P. Purchase");
             System.out.println("E. Exit");

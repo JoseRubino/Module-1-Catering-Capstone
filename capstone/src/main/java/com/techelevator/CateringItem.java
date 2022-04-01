@@ -56,6 +56,22 @@ public class CateringItem {
             return foodType;
             }
 
+        public String getMessage() {
+            if (foodType.equals("Dessert")) {
+                System.out.println("Sugar, Sugar, so Sweet!");
+                return "Sugar, Sugar, so Sweet!";
+            } else if (foodType.equals("Sandwich")) {
+                System.out.println("Sandwich So Delicious, Yum!");
+                return "Sandwich So Delicious, Yum!";
+            } else if (foodType.equals("Munchy")) {
+                System.out.println("Munchy, Munchy, so Good!");
+                return "Munchy, Munchy, so Good!";
+            } else {
+                System.out.println("Drinky, Drinky, Slurp Slurp!");
+                return "Drinky, Drinky, Slurp Slurp!";
+            }
+        }
+
     public void setFoodType(String foodType){
         this.foodType = foodType;
 

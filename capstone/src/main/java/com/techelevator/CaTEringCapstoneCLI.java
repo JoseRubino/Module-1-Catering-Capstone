@@ -87,7 +87,6 @@ public class CaTEringCapstoneCLI {
 				  System.out.println("Here is your change: $");
 				  transaction.getChange(userBalance);
 				  System.out.println( "Here is your balance: $" + (String.format("%.2f", userBalance)));
-
 			  }
 		}
 			 else {
