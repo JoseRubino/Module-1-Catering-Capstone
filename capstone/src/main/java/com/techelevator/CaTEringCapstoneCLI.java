@@ -19,6 +19,7 @@ public class CaTEringCapstoneCLI {
 
 	private static final String Exit = "E";
 
+
 	public CaTEringCapstoneCLI(Menu menu) {
 		this.menu = menu;
 	}
@@ -57,6 +58,9 @@ public class CaTEringCapstoneCLI {
 			}
 		}
 
+
+
+
 	}
 	private void subMenu() throws IOException {
 		boolean Looping = true;
@@ -80,13 +84,15 @@ public class CaTEringCapstoneCLI {
 
 			  if(cateringInventory.containsKey(finalUserInput)) {
 
-				  if (cateringInventory.get(finalUserInput).itemAvailable() && (transaction.getBalance() >= cateringInventory.get(finalUserInput).getPrice()));
-				  	cateringInventory.get(finalUserInput).purchaseItem(1);
-					  double userBalance = transaction.getBalance() - cateringInventory.get(finalUserInput).getPrice();
-					  newPurchaseLog.logUser(cateringInventory.get(finalUserInput).getName(), userBalance);
-				  System.out.println("Here is your change: $");
+				  if (cateringInventory.get(finalUserInput).itemAvailable() && (transaction.getBalance() >= cateringInventory.get(finalUserInput).getPrice()))
+					  ;
+				  cateringInventory.get(finalUserInput).purchaseItem(1);
+				  double userBalance = transaction.getBalance() - cateringInventory.get(finalUserInput).getPrice();
+				  newPurchaseLog.logUser(cateringInventory.get(finalUserInput).getName(), userBalance);
+				  System.out.println("Here is your balance: $" + (String.format("%.2f", userBalance)));
 				  transaction.getChange(userBalance);
-				  System.out.println( "Here is your balance: $" + (String.format("%.2f", userBalance)));
+				  System.out.println("Here is your change: $" + (String.format("%.2f", userBalance)));
+
 			  }
 		}
 			 else {
@@ -94,7 +100,13 @@ public class CaTEringCapstoneCLI {
 			 }
 			  if (subMenuOption.equalsIgnoreCase("F")){
 				System.out.println("Complete transaction");
-			}
+
+
+
+			  }
+
+
+
 			 else {
 				System.out.println("Returning to main menu");
 				Looping = false;

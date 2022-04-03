@@ -4,7 +4,7 @@ public class CateringItem {
 
     private double price;
     private String name;
-    private int numOfCateringItems = 7;
+    private int numOfCateringItems;
     private String itemId;
     private String foodType;
 
@@ -14,6 +14,7 @@ public class CateringItem {
         this.price = price;
         this.itemId = itemId;
         this.foodType = foodType;
+        this.numOfCateringItems = 7;
     }
 
     public double getPrice(){
@@ -35,6 +36,7 @@ public class CateringItem {
     public int purchaseItem(int i){
         return numOfCateringItems -=1;
     }
+
     public String getQuantityString() {
         if (this.getNumOfCateringItems() == 0) {
             return "NO LONGER AVAILABLE";
@@ -75,5 +77,8 @@ public class CateringItem {
     public void setFoodType(String foodType){
         this.foodType = foodType;
 
+    }
+    public void removeItem(int amountToRemove){
+        numOfCateringItems -= amountToRemove;
     }
 }
