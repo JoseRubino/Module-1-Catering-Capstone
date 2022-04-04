@@ -32,3 +32,15 @@ Sun Apr 03 19:18:20 EDT 2022 Burrito             5.15
 Sun Apr 03 19:18:41 EDT 2022 Burrito             5.15                
 Sun Apr 03 19:18:54 EDT 2022 Add Money           5.0                 
 Sun Apr 03 19:18:59 EDT 2022 Burrito             0.15000000000000036 
+Sun Apr 03 20:05:28 EDT 2022 Add Money           5.0                 
+Sun Apr 03 20:05:44 EDT 2022 Popcorn             3.25                
+Sun Apr 03 20:11:44 EDT 2022 Add Money           5.0                 
+Sun Apr 03 20:12:32 EDT 2022 After Lunch Mints   3.65                
+Sun Apr 03 20:14:19 EDT 2022 Add Money           10.0                
+Sun Apr 03 20:15:00 EDT 2022 Popcorn             8.25                
+Sun Apr 03 20:21:58 EDT 2022 Add Money           5.0                 
+Sun Apr 03 20:22:06 EDT 2022 Add Money           10.0                
+Sun Apr 03 20:25:00 EDT 2022 Add Money           5.0                 
+Sun Apr 03 20:25:06 EDT 2022 After Lunch Mints   3.65                
+Sun Apr 03 20:26:50 EDT 2022 Add Money           5.0                 
+Sun Apr 03 20:30:09 EDT 2022 Add Money           5.0                 

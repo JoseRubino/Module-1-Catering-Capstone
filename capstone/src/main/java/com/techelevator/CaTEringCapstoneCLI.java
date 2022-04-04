@@ -100,9 +100,6 @@ public class CaTEringCapstoneCLI {
 			 }
 			  if (subMenuOption.equalsIgnoreCase("F")){
 				System.out.println("Complete transaction");
-
-
-
 			  }
 
 
